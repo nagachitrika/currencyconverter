@@ -1,0 +1,54 @@
+body {
+    font-family: Calibri, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+}
+
+.converter {
+    display: flex;
+    flex-direction: column;
+}
+
+.converter div {
+    margin: 10px 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 5px;
+}
+
+button {
+    background-color: #0074cc;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.result {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.result span {
+    font-size: 18px;
+    font-weight: bold;
+}
